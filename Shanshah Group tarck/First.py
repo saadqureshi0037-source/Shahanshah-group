@@ -356,7 +356,7 @@ elif page == "Admin":
         st.markdown("## 🔐 Admin Login")
         pwd = st.text_input("Enter admin password:", type="password")
         if st.button("Login"):
-            if pwd == "1234":
+            if pwd == "shahanshah":
                 st.session_state.admin_logged_in = True
                 st.success("Welcome, Admin ✅")
             else:
@@ -554,3 +554,4 @@ elif page == "Admin":
 
 # End (DB remains open; Streamlit process covers lifecycle)
 # conn.close()
+
